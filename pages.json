@@ -1,0 +1,261 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+	},
+
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/indexplus/indexplus"
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "订 单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我 的",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登 录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注 册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/preOrder/preOrder",
+			"style": {
+				"navigationBarTitleText": "下 单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "平台介绍",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/certification/certification",
+			"style": {
+				"navigationBarTitleText": "骑手认证",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/acceptOrders/acceptOrders",
+			"style": {
+				"navigationBarTitleText": "骑手订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/records/records",
+			"style": {
+				"navigationBarTitleText": "收支明细",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "钱 包",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/charge/charge",
+			"style": {
+				"navigationBarTitleText": "充 值",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "评 价",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myComment/myComment",
+			"style": {
+				"navigationBarTitleText": "评价中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login&register/login&register",
+			"style": {
+				"navigationBarTitleText": "登陆注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/meplus/meplus",
+			"style": {
+				"navigationBarTitleText": "我的plus",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "test",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/walletplus/walletplus",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// {
+		// 	"path": "pages/indexplus/indexplus",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// },
+		{
+			"path": "pages/loginplus/loginplus",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/meplus1/meplus1",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/getOrder/getOrder",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/activitydetail/activitydetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/newsdetail/newsdetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/activitysign/activitysign",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		// 导航栏标题颜色及状态栏前景颜色，仅支持 black/white
+		"navigationBarTextStyle": "white",
+		// 导航栏标题文字内容
+		"navigationBarTitleText": "校园跑腿",
+		// 导航栏背景颜色（同状态栏背景色）
+		"navigationBarBackgroundColor": "#006eff",
+		//  下拉显示出来的窗口的背景色
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	// 底部导航菜单
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"selectedColor": "#006eff",
+		"color": "#666",
+		"list": [{
+				"iconPath": "/static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png",
+				"text": "首页",
+				"pagePath": "pages/indexplus/indexplus"
+			},
+			{
+				"iconPath": "/static/icons/orders.png",
+				"selectedIconPath": "static/icons/orders-active.png",
+				"text": "订单",
+				"pagePath": "pages/orders/orders"
+			},
+			{
+				"iconPath": "/static/icons/me.png",
+				"selectedIconPath": "static/icons/me-active.png",
+				"text": "我的",
+				"pagePath": "pages/meplus1/meplus1"
+			}
+		]
+	}
+
+}

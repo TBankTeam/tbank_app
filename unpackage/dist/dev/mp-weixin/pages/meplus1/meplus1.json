@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-badge": "/tuniao-ui/components/tn-badge/tn-badge",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "tn-scroll-list": "/tuniao-ui/components/tn-scroll-list/tn-scroll-list",
+    "tn-list-cell": "/tuniao-ui/components/tn-list-cell/tn-list-cell",
+    "nav-index-button": "/libs/components/nav-index-button"
+  }
+}

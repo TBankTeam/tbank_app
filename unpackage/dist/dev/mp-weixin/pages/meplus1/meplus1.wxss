@@ -1,0 +1,874 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tn-custom-nav-bar__back.data-v-57069586 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 1000rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.tn-custom-nav-bar__back .icon.data-v-57069586 {
+  display: block;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+.tn-custom-nav-bar__back.data-v-57069586:before {
+  content: " ";
+  width: 1rpx;
+  height: 110%;
+  position: absolute;
+  top: 22.5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  opacity: 0.7;
+  background-color: #FFFFFF;
+}
+/* 自定义导航栏内容 start */
+.custom-nav.data-v-57069586 {
+  height: 100%;
+}
+.custom-nav__back.data-v-57069586 {
+  margin: auto 5rpx;
+  font-size: 40rpx;
+  margin-right: 10rpx;
+  flex-basis: 5%;
+  width: 100rpx;
+  position: absolute;
+}
+/* 自定义导航栏内容 end */
+/* 顶部背景图 start */
+.top-backgroup.data-v-57069586 {
+  height: 450rpx;
+  z-index: -1;
+}
+.top-backgroup .backgroud-image.data-v-57069586 {
+  width: 100%;
+  height: 450rpx;
+}
+/* 顶部背景图 end */
+/* 标题 start */
+.nav_title.data-v-57069586 {
+  -webkit-background-clip: text;
+  color: #0E122A;
+}
+.nav_title--wrap.data-v-57069586 {
+  position: relative;
+  display: flex;
+  height: 120rpx;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-image: url(https://resource.tuniaokj.com/images/title_bg/title44.png);
+  background-size: cover;
+}
+/* 标题 end */
+/* 用户头像 start */
+.logo-image.data-v-57069586 {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+}
+.logo-pic.data-v-57069586 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+/* 页面 start*/
+.about-shadow.data-v-57069586 {
+  border-radius: 15rpx;
+  box-shadow: 0rpx 0rpx 50rpx 0rpx rgba(0, 0, 0, 0.07);
+}
+.about__wrap.data-v-57069586 {
+  position: relative;
+  z-index: 1;
+  margin: 20rpx 30rpx;
+  margin-top: -230rpx;
+}
+/* 页面 end*/
+/* 图标容器15 start */
+.icon15__item.data-v-57069586 {
+  width: 30%;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  margin: 20rpx 10rpx;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.icon15__item--icon.data-v-57069586 {
+  width: 15rpx;
+  height: 15rpx;
+  font-size: 66rpx;
+  border-radius: 50%;
+  margin-bottom: 38rpx;
+  position: relative;
+  text-shadow: #0E122A 0rpx 0rpx 0rpx;
+  z-index: 1;
+}
+.icon15__item--icon.data-v-57069586::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+  background-image: url(https://resource.tuniaokj.com/images/cool_bg_image/icon_bg6.png);
+}
+/* 图标容器1 start */
+.icon1__item.data-v-57069586 {
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  margin: 20rpx 10rpx;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.icon1__item--icon.data-v-57069586 {
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+.icon1__item--icon.data-v-57069586::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+  background-image: url(https://resource.tuniaokj.com/images/cool_bg_image/icon_bg.png);
+}
+/* 图标容器1 end */
+/* 底部tabbar start*/
+.footerfixed.data-v-57069586 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  background-color: #FFFFFF;
+  box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.07);
+}
+.tabbar.data-v-57069586 {
+  display: flex;
+  align-items: center;
+  min-height: 110rpx;
+  justify-content: space-between;
+  padding: 0;
+  height: calc(110rpx + env(safe-area-inset-bottom) / 2);
+  padding-bottom: calc(env(safe-area-inset-bottom) / 2);
+}
+.tabbar .action.data-v-57069586 {
+  font-size: 22rpx;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding: 0;
+  display: block;
+  height: auto;
+  line-height: 1;
+  margin: 0;
+  overflow: initial;
+}
+.bar-center.data-v-57069586 {
+  -webkit-animation: suspension-data-v-57069586 3s ease-in-out infinite;
+          animation: suspension-data-v-57069586 3s ease-in-out infinite;
+}
+@-webkit-keyframes suspension-data-v-57069586 {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-0.8rem);
+            transform: translateY(-0.8rem);
+}
+}
+@keyframes suspension-data-v-57069586 {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-0.8rem);
+            transform: translateY(-0.8rem);
+}
+}
+.tabbar .action .bar-icon.data-v-57069586 {
+  width: 100rpx;
+  position: relative;
+  display: block;
+  height: auto;
+  margin: 0 auto 10rpx;
+  text-align: center;
+  font-size: 42rpx;
+}
+.tabbar .action .bar-icon image.data-v-57069586 {
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+}
+.tabbar .action .bar-circle.data-v-57069586 {
+  position: relative;
+  display: block;
+  margin: 0rpx auto 0rpx;
+  text-align: center;
+  font-size: 52rpx;
+  line-height: 90rpx;
+  width: 100rpx !important;
+  height: 100rpx !important;
+  overflow: hidden;
+}
+.tabbar .action .bar-circle image.data-v-57069586 {
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+  margin: 0rpx auto 0rpx;
+}
+/* 流星+悬浮 */
+.nav-index-button.data-v-57069586 {
+  -webkit-animation: suspension-data-v-57069586 3s ease-in-out infinite;
+          animation: suspension-data-v-57069586 3s ease-in-out infinite;
+  z-index: 999999;
+}
+.nav-index-button__content.data-v-57069586 {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.nav-index-button__content--icon.data-v-57069586 {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  border-radius: 50%;
+  margin-bottom: 18rpx;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+.nav-index-button__content--icon.data-v-57069586::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+}
+.nav-index-button__meteor.data-v-57069586 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translate(-50%, -50%) rotateY(75deg) rotateZ(10deg);
+          transform: translate(-50%, -50%) rotateY(75deg) rotateZ(10deg);
+}
+.nav-index-button__meteor__wrapper.data-v-57069586 {
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: spin-data-v-57069586 20s linear infinite;
+          animation: spin-data-v-57069586 20s linear infinite;
+}
+.nav-index-button__meteor__item.data-v-57069586 {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 1000rpx;
+  left: 0;
+  top: 0;
+}
+.nav-index-button__meteor__item--pic.data-v-57069586 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(https://resource.tuniaokj.com/images/cool_bg_image/arc1.png) no-repeat center center;
+  background-size: 100% 100%;
+  -webkit-animation: arc-data-v-57069586 4s linear infinite;
+          animation: arc-data-v-57069586 4s linear infinite;
+}
+@keyframes suspension-data-v-57069586 {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-0.6rem);
+            transform: translateY(-0.6rem);
+}
+}
+@-webkit-keyframes spin-data-v-57069586 {
+0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+}
+100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+}
+}
+@keyframes spin-data-v-57069586 {
+0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+}
+100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+}
+}
+@-webkit-keyframes arc-data-v-57069586 {
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes arc-data-v-57069586 {
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+/* 图标容器12 start */
+.icon12__item.data-v-57069586 {
+  width: 30%;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  margin: 20rpx 10rpx;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.icon12__item--icon.data-v-57069586 {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  margin-bottom: 0rpx;
+  position: relative;
+  z-index: 1;
+}
+.icon12__item--icon.data-v-57069586::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+}
+/* 图标容器11 start */
+.icon11__item.data-v-57069586 {
+  width: 30%;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  margin: 20rpx 10rpx;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.icon11__item--icon.data-v-57069586 {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  border-radius: 50%;
+  margin-bottom: 18rpx;
+  position: relative;
+  z-index: 1;
+}
+.icon11__item--icon.data-v-57069586::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+  background-image: url(https://resource.tuniaokj.com/images/cool_bg_image/icon_bg.png);
+}
+/**/
+@-webkit-keyframes t-data-v-57069586 {
+0%,
+  10%,
+  80%,
+  100% {
+    top: -30px;
+}
+20% {
+    top: 0px;
+}
+30% {
+    top: -20px;
+}
+40% {
+    top: -0px;
+}
+50% {
+    top: -25px;
+}
+70% {
+    top: 0px;
+}
+}
+@keyframes t-data-v-57069586 {
+0%,
+  10%,
+  80%,
+  100% {
+    top: -30px;
+}
+20% {
+    top: 0px;
+}
+30% {
+    top: -20px;
+}
+40% {
+    top: -0px;
+}
+50% {
+    top: -25px;
+}
+70% {
+    top: 0px;
+}
+}
+@-webkit-keyframes b-data-v-57069586 {
+0%,
+  10%,
+  80%,
+  100% {
+    bottom: -30px;
+}
+20% {
+    bottom: 0px;
+}
+30% {
+    bottom: -20px;
+}
+40% {
+    bottom: -0px;
+}
+50% {
+    bottom: -25px;
+}
+70% {
+    bottom: 0px;
+}
+}
+@keyframes b-data-v-57069586 {
+0%,
+  10%,
+  80%,
+  100% {
+    bottom: -30px;
+}
+20% {
+    bottom: 0px;
+}
+30% {
+    bottom: -20px;
+}
+40% {
+    bottom: -0px;
+}
+50% {
+    bottom: -25px;
+}
+70% {
+    bottom: 0px;
+}
+}
+@-webkit-keyframes mouth-data-v-57069586 {
+0%,
+  10%,
+  100% {
+    width: 100%;
+    height: 0%;
+}
+15% {
+    width: 90%;
+    height: 30%;
+}
+20% {
+    width: 50%;
+    height: 70%;
+}
+25% {
+    width: 70%;
+    height: 70%;
+}
+30% {
+    width: 80%;
+    height: 60%;
+}
+35% {
+    width: 60%;
+    height: 70%;
+}
+40% {
+    width: 55%;
+    height: 75%;
+}
+45% {
+    width: 50%;
+    height: 90%;
+}
+50% {
+    width: 40%;
+    height: 70%;
+}
+55% {
+    width: 70%;
+    height: 95%;
+}
+60% {
+    width: 40%;
+    height: 50%;
+}
+65% {
+    width: 100%;
+    height: 60%;
+}
+70% {
+    width: 100%;
+    height: 70%;
+}
+75% {
+    width: 90%;
+    height: 70%;
+}
+80% {
+    width: 50%;
+    height: 70%;
+}
+85% {
+    width: 90%;
+    height: 50%;
+}
+85% {
+    width: 40%;
+    height: 70%;
+}
+90% {
+    width: 90%;
+    height: 30%;
+}
+95% {
+    width: 100%;
+    height: 10%;
+}
+}
+@keyframes mouth-data-v-57069586 {
+0%,
+  10%,
+  100% {
+    width: 100%;
+    height: 0%;
+}
+15% {
+    width: 90%;
+    height: 30%;
+}
+20% {
+    width: 50%;
+    height: 70%;
+}
+25% {
+    width: 70%;
+    height: 70%;
+}
+30% {
+    width: 80%;
+    height: 60%;
+}
+35% {
+    width: 60%;
+    height: 70%;
+}
+40% {
+    width: 55%;
+    height: 75%;
+}
+45% {
+    width: 50%;
+    height: 90%;
+}
+50% {
+    width: 40%;
+    height: 70%;
+}
+55% {
+    width: 70%;
+    height: 95%;
+}
+60% {
+    width: 40%;
+    height: 50%;
+}
+65% {
+    width: 100%;
+    height: 60%;
+}
+70% {
+    width: 100%;
+    height: 70%;
+}
+75% {
+    width: 90%;
+    height: 70%;
+}
+80% {
+    width: 50%;
+    height: 70%;
+}
+85% {
+    width: 90%;
+    height: 50%;
+}
+85% {
+    width: 40%;
+    height: 70%;
+}
+90% {
+    width: 90%;
+    height: 30%;
+}
+95% {
+    width: 100%;
+    height: 10%;
+}
+}
+@-webkit-keyframes tongue-data-v-57069586 {
+0%,
+  20%,
+  100% {
+    bottom: -80px;
+}
+30%,
+  90% {
+    bottom: -40px;
+}
+40% {
+    bottom: -45px;
+}
+50% {
+    bottom: -50px;
+}
+70% {
+    bottom: -80px;
+}
+90% {
+    bottom: -40px;
+}
+}
+@keyframes tongue-data-v-57069586 {
+0%,
+  20%,
+  100% {
+    bottom: -80px;
+}
+30%,
+  90% {
+    bottom: -40px;
+}
+40% {
+    bottom: -45px;
+}
+50% {
+    bottom: -50px;
+}
+70% {
+    bottom: -80px;
+}
+90% {
+    bottom: -40px;
+}
+}
+/* 胶囊*/
+.tn-custom-nav-bar__back.data-v-57069586 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 1000rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.tn-custom-nav-bar__back .icon.data-v-57069586 {
+  display: block;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+.tn-custom-nav-bar__back.data-v-57069586:before {
+  content: " ";
+  width: 1rpx;
+  height: 110%;
+  position: absolute;
+  top: 22.5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  opacity: 0.7;
+  background-color: #FFFFFF;
+}
+/* 底部悬浮按钮 start*/
+.tn-tabbar-height.data-v-57069586 {
+  min-height: 100rpx;
+  height: calc(120rpx + env(safe-area-inset-bottom) / 2);
+}
+.tn-footerfixed.data-v-57069586 {
+  position: fixed;
+  width: 100%;
+  bottom: calc(60rpx + env(safe-area-inset-bottom));
+  z-index: 1024;
+  box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0);
+}
+/* 底部悬浮按钮 end*/
+/* 卡 */
+.button-vip.data-v-57069586 {
+  width: 100%;
+  height: 300rpx;
+  border-radius: 15rpx;
+  position: relative;
+  z-index: 1;
+}
+.button-vip.data-v-57069586::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+  background-image: url(https://resource.tuniaokj.com/images/cool_bg_image/icon_bg4.png);
+}
+/* 间隔线 start*/
+.tn-strip-bottom-min.data-v-57069586 {
+  width: 100%;
+  border-bottom: 1rpx solid #F8F9FB;
+}
+.tn-strip-bottom.data-v-57069586 {
+  width: 100%;
+  border-bottom: 20rpx solid rgba(241, 241, 241, 0.8);
+}
+/* 间隔线 end*/
+

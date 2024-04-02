@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/indexplus/indexplus",
+    "pages/orders/orders",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/preOrder/preOrder",
+    "pages/address/address",
+    "pages/detail/detail",
+    "pages/introduce/introduce",
+    "pages/agreement/agreement",
+    "pages/person/person",
+    "pages/certification/certification",
+    "pages/acceptOrders/acceptOrders",
+    "pages/records/records",
+    "pages/wallet/wallet",
+    "pages/charge/charge",
+    "pages/comment/comment",
+    "pages/myComment/myComment",
+    "pages/login&register/login&register",
+    "pages/meplus/meplus",
+    "pages/test/test",
+    "pages/walletplus/walletplus",
+    "pages/loginplus/loginplus",
+    "pages/meplus1/meplus1",
+    "pages/getOrder/getOrder",
+    "pages/activity/activity",
+    "pages/activitydetail/activitydetail",
+    "pages/news/news",
+    "pages/newsdetail/newsdetail",
+    "pages/activitysign/activitysign"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园跑腿",
+    "navigationBarBackgroundColor": "#006eff",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#006eff",
+    "color": "#666",
+    "list": [
+      {
+        "iconPath": "/static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png",
+        "text": "首页",
+        "pagePath": "pages/indexplus/indexplus"
+      },
+      {
+        "iconPath": "/static/icons/orders.png",
+        "selectedIconPath": "static/icons/orders-active.png",
+        "text": "订单",
+        "pagePath": "pages/orders/orders"
+      },
+      {
+        "iconPath": "/static/icons/me.png",
+        "selectedIconPath": "static/icons/me-active.png",
+        "text": "我的",
+        "pagePath": "pages/meplus1/meplus1"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

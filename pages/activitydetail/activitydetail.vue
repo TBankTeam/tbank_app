@@ -8,15 +8,12 @@
 			</view>
 		</tn-nav-bar>
 		<view class="box" v-if="activity.id">
+			<view class="title_img">
+					<image :src="activity.cover" mode="widthFix" style="width: 550rpx;"></image>
+			</view>
 			<view class="line" style="margin-top: 40rpx;">
 				<view class="line-title">活动标题：</view>
 				<view class="line-content">{{ activity.name }}</view>
-			</view>
-			<view class="line">
-				<view class="line-title">物品图片：</view>
-				<view class="line-content">
-					<image :src="activity.cover" mode="widthFix" style="width: 300rpx;"></image>
-				</view>
 			</view>
 
 			<view class="line">
@@ -45,7 +42,8 @@
 			</view>
 
 			<view style="margin: 50upx 0;">
-				<view style="margin-bottom: 30upx; font-size: 30upx; font-weight: bold; text-align: center;">- 活动详情 -
+				<view style="margin-bottom: 30upx; font-size: 30upx; font-weight: bold; text-align: center;">
+					-- 活动详情 --
 				</view>
 				<view class="w-e-text" style="">
 					<rich-text :nodes="activity.content"></rich-text>
@@ -172,6 +170,12 @@
 </script>
 
 <style lang="scss" scoped>
+	
+	.title_img {
+		// background-color: red;
+		text-align: center;
+	}
+
 	
 	.line {
 		display: flex;

@@ -80,7 +80,7 @@
 								我的余额
 							</view>
 							<view class="tn-color-white tn-padding-top-sm">
-								<text class="" style="margin-left: -6rpx;">SJB：</text>
+								<text class="" style="margin-left: -6rpx;">Tcoins：</text>
 								<!-- <text class="tn-text-bold" style="font-size: 80rpx;">129.29</text> -->
 								<text class="tn-text-bold" style="font-size: 80rpx;">{{ account }}</text>
 							</view>

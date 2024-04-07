@@ -61,16 +61,16 @@
 									{{ item.descr }}
 								</text>
 							</view>
-							<view class="tn-flex tn-flex-row-between tn-flex-col-between">
-								<view style="padding-top: 0rpx;">
-									<text class="tn-icon-footprint tn-padding-right-xs"></text>
-									<text class="tn-padding-right"
-										style="font-size: 10px;width: 60%;">{{ item.start }}~{{ item.end }}</text>
-								</view>
+							<view style="padding-top: 0rpx;">
+								<text class="tn-icon-footprint tn-padding-right-xs"></text>
+								<text class="tn-padding-right"
+									style="font-size: 12px;width: 60%;">{{ item.start }}~{{ item.end }}</text>
+							</view>
+							<view class="tn-flex tn-flex-row-between tn-flex-col-between" style="padding-top: 10rpx;">
 								<view
 									class="justify-content-item tn-tag-content__item tn-margin-right tn-round tn-text-sm tn-text-bold"
 									:class="[`tn-bg-red--light tn-color-red`]" style="width: 40%;height: 40rpx;">
-									<text class="tn-tag-content__item--prefix">#</text> 报名中
+									<text class="tn-tag-content__item--prefix">#</text>报名中
 								</view>
 
 							</view>

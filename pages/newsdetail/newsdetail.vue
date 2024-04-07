@@ -22,9 +22,6 @@
 					<rich-text :nodes="news.content"></rich-text>
 				</view>
 			</view>
-
-
-
 		</view>
 	</view>
 </template>

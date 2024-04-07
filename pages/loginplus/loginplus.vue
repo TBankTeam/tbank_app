@@ -10,17 +10,14 @@
 
 		<view class="login">
 			<!-- 顶部背景图片-->
-			<view class="login__bg login__bg--top">
-				<image class="bg" src="https://resource.tuniaokj.com/images/login/2/login-top2.png" mode="widthFix">
+<!-- 			<view class="login__bg login__bg--top">
+				<image class="bg" src="" mode="widthFix">
 				</image>
-			</view>
+			</view> -->
 
 			<view class="login__wrapper">
 				<view class="tn-margin-left tn-margin-right tn-text-bold" style="font-size: 60rpx;">
-					欢迎回来
-				</view>
-				<view class="tn-margin tn-color-gray--disabled tn-text-lg">
-					你是不是傻，菜的一撇的北北
+					欢迎回来！
 				</view>
 
 				<!-- 登录/注册切换 -->
@@ -35,10 +32,10 @@
         </view> -->
 
 				<!-- 输入框内容-->
-				<view class="login__info tn-flex tn-flex-direction-column tn-flex-col-center tn-flex-row-center">
+				<view class="formbox login__info tn-flex tn-flex-direction-column tn-flex-col-center tn-flex-row-center">
 					<!-- 登录 -->
 					<block v-if="currentModeIndex === 0">
-						<uni-forms ref="formRef" :modelValue="form" :rules="rules" validateTrigger="blur">
+						<uni-forms ref="formRef" :modelValue="form" :rules="rules" validateTrigger="blur" style="margin-top: 50rpx;">
 							<uni-forms-item name="username" required>
 								<uni-easyinput prefixIcon="person" v-model="form.username" placeholder="请输入账号" />
 							</uni-forms-item>
@@ -50,7 +47,7 @@
 					</block>
 					<!-- 注册 -->
 					<block v-if="currentModeIndex === 1">
-						<view style="font-size: 40rpx;">欢迎注册</view>
+<!-- 						<view style="font-size: 40rpx;">欢迎注册！</view> -->
 						<view style="margin: 60rpx 0;">
 							<uni-forms ref="formRef" :modelValue="form" :rules="rules" validateTrigger="blur">
 								<uni-forms-item name="username" required>
@@ -60,7 +57,6 @@
 									<uni-easyinput type="password" prefixIcon="locked" v-model="form.password"
 										placeholder="请输入密码" />
 								</uni-forms-item>
-
 							</uni-forms>
 						</view>
 					</block>
@@ -85,7 +81,7 @@
 				</view>
 
 				<!-- 其他登录方式 -->
-				<view class="login__way tn-flex tn-flex-col-center tn-flex-row-center">
+				<!-- <view class="login__way tn-flex tn-flex-col-center tn-flex-row-center">
 					<view class="tn-padding-sm tn-margin-xs">
 						<view
 							class="login__way__item--icon tn-flex tn-flex-row-center tn-flex-col-center tn-color-teal--dark">
@@ -103,12 +99,13 @@
 							<view class="tn-icon-qq"></view>
 						</view>
 					</view>
-				</view>
+				</view> -->
 			</view>
 
 			<!-- 底部背景图片-->
 			<view class="login__bg login__bg--bottom">
-				<image src="https://resource.tuniaokj.com/images/login/2/login-bottom2.png" mode="widthFix"></image>
+				<!-- <image src="https://resource.tuniaokj.com/images/login/2/login-bottom2.png" mode="widthFix"></image> -->
+				<view class="copy"><p>版权所有：时间银行管理平台 &copy; 2024 </p></view>
 			</view>
 
 		</view>
@@ -267,6 +264,14 @@
       transform: translate(0rem , 1rem);
     }
   } */
+  
+	.copy {
+		text-align: center;
+	}
+	
+	.formbox {
+		background-color: rgba(245, 245, 245, 0.6);
+	}
 
 	.login {
 		position: relative;
@@ -470,4 +475,5 @@
 		font-size: 24rpx;
 		color: #838383;
 	}
+	
 </style>
